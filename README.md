@@ -40,7 +40,7 @@
 ### 1. 複製專案
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/Wanhsuan98/github-repo-scroller.git>
 cd github-repo-scroller
 ```
 

@@ -6,6 +6,7 @@
     "moduleResolution": "Bundler",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
+    "types": ["vite/client", "node"],
 
     /* 嚴謹模式 */
     "strict": true,

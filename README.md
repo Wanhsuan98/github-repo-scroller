@@ -62,3 +62,11 @@ npm run dev
 npm run build
 
 ```
+
+## 環境變數配置
+
+- 由於 GitHub API 對於未驗證請求有頻率限制（60次/小時），本專案建議配置 GitHub Token 以獲得更穩定的測試體驗：
+
+1. 將 .env.example 重新命名為 .env。
+2. 將您的 GitHub Token 填入 VITE_GITHUB_TOKEN。
+3. 重啟開發伺服器。

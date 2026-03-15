@@ -64,6 +64,10 @@ onUnmounted(() => {
 
 <template>
   <div class="container">
+    <div class="source-header">
+      <el-alert title="資料來源註記" type="info" description="本專案使用 GitHub 官方公開 API，資料來源帳號為：https://github.com/google"
+        show-icon :closable="false" />
+    </div>
     <el-row :gutter="20">
       <el-col v-for="repo in repos" :key="repo.id" :xs="24" :sm="12" :md="8" class="card-col">
         <RepoCard :repo="repo" />
@@ -81,6 +85,10 @@ onUnmounted(() => {
 .container {
   padding: 20px;
   min-height: 100vh;
+}
+
+.source-header {
+  margin-bottom: 30px;
 }
 
 .card-col {
